@@ -686,121 +686,7 @@
       ]
     },
     {
-      "name": "Yekbun Tv",
-      "icon": "menu-icon tf-icons bx bx-tv",
-      "slug": "layouts",
-      "submenu": [
-        {
-          "name": "View Users",
-          "slug": "layouts-collapsed-menu"
-        },
-        {
-          "name": "Settings",
-          "slug": "layouts",
-          "submenu": [
-            {
-              "name": "Maintainance",
-              "slug": "layouts-content-nav-sidebar",
-              "submenu": [
-                {
-                  "name": "Kids Area",
-                  "slug": "layouts-content-nav-sidebar",
-                  "submenu": [
-                    {
-                      "name": "Category",
-                      "slug": "layouts-content-nav-sidebar"
-                    }
-                  ]
-                },
-                {
-                  "name": "Adult Area",
-                  "slug": "layouts-content-nav-sidebar",
-                  "submenu": [
-                    {
-                      "name": "Category",
-                      "slug": "layouts-content-nav-sidebar"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Permission",
-              "slug": "layouts",
-              "submenu": [
-                {
-                  "name": "Comments",
-                  "slug": "layouts-content-nav-sidebar"
-                },
-                {
-                  "name": "Add to Playlist",
-                  "slug": "layouts-content-nav-sidebar"
-                },
-                {
-                  "name": "View Later",
-                  "slug": "layouts-content-nav-sidebar"
-                },
-                {
-                  "name": "Report",
-                  "slug": "layouts-content-nav-sidebar"
-                },
-                {
-                  "name": "Move to Playlist",
-                  "slug": "layouts-content-nav-sidebar"
-                },
-                {
-                  "name": "Create Playlist",
-                  "slug": "layouts-content-nav-sidebar"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Policy and Terms",
-          "slug": "layouts-collapsed-menu"
-        },
-        {
-          "name": "Payment Method",
-          "slug": "layouts-collapsed-menu"
-        },
-        {
-          "name": "Languages",
-          "slug": "layouts-collapsed-menu"
-        }
-      ]
-    },
-    {
-      "name": "Zarok App",
-      "icon": "menu-icon tf-icons bx bx-devices",
-      "slug": "layouts",
-      "submenu": [
-        {
-          "name": "Add Category",
-          "slug": "layouts-collapsed-menu"
-        },
-        {
-          "name": "Add Manage Videos",
-          "slug": "layouts-collapsed-menu"
-        },
-        {
-          "name": "Settings",
-          "slug": "layouts",
-          "submenu": [
-            {
-              "name": "Prefix",
-              "slug": "layouts-content-nav-sidebar"
-            },
-            {
-              "name": "Policy and Terms",
-              "slug": "layouts-content-nav-sidebar"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "menuHeader": "Features"
+      "menuHeader": "Entertainment"
     },
     {
       "name": "Live Streams & Channel",
@@ -897,10 +783,6 @@
         }
       ]
     },
-
-    {
-      "menuHeader": "Movies"
-    },
     {
       "name": "Movies",
       "icon": "menu-icon tf-icons bx bx-movie-play",
@@ -945,9 +827,6 @@
       ]
     },
     {
-      "menuHeader": "Series"
-    },
-    {
       "name": "Series",
       "icon": "menu-icon tf-icons bx bx-movie-play",
       "slug": "layouts",
@@ -990,7 +869,120 @@
         }
       ]
     },
-   
+    {
+      "name": "Zarok App",
+      "icon": "menu-icon tf-icons bx bx-devices",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "name": "Add Category",
+          "slug": "layouts-collapsed-menu"
+        },
+        {
+          "name": "Add Manage Videos",
+          "slug": "layouts-collapsed-menu"
+        },
+        {
+          "name": "Settings",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "name": "Prefix",
+              "slug": "layouts-content-nav-sidebar"
+            },
+            {
+              "name": "Policy and Terms",
+              "slug": "layouts-content-nav-sidebar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yekbun Tv",
+      "icon": "menu-icon tf-icons bx bx-tv",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "name": "View Users",
+          "slug": "layouts-collapsed-menu"
+        },
+        {
+          "name": "Settings",
+          "slug": "layouts",
+          "submenu": [
+            {
+              "name": "Maintainance",
+              "slug": "layouts-content-nav-sidebar",
+              "submenu": [
+                {
+                  "name": "Kids Area",
+                  "slug": "layouts-content-nav-sidebar",
+                  "submenu": [
+                    {
+                      "name": "Category",
+                      "slug": "layouts-content-nav-sidebar"
+                    }
+                  ]
+                },
+                {
+                  "name": "Adult Area",
+                  "slug": "layouts-content-nav-sidebar",
+                  "submenu": [
+                    {
+                      "name": "Category",
+                      "slug": "layouts-content-nav-sidebar"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Permission",
+              "slug": "layouts",
+              "submenu": [
+                {
+                  "name": "Comments",
+                  "slug": "layouts-content-nav-sidebar"
+                },
+                {
+                  "name": "Add to Playlist",
+                  "slug": "layouts-content-nav-sidebar"
+                },
+                {
+                  "name": "View Later",
+                  "slug": "layouts-content-nav-sidebar"
+                },
+                {
+                  "name": "Report",
+                  "slug": "layouts-content-nav-sidebar"
+                },
+                {
+                  "name": "Move to Playlist",
+                  "slug": "layouts-content-nav-sidebar"
+                },
+                {
+                  "name": "Create Playlist",
+                  "slug": "layouts-content-nav-sidebar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Policy and Terms",
+          "slug": "layouts-collapsed-menu"
+        },
+        {
+          "name": "Payment Method",
+          "slug": "layouts-collapsed-menu"
+        },
+        {
+          "name": "Languages",
+          "slug": "layouts-collapsed-menu"
+        }
+      ]
+    },
     {
       "menuHeader": "Bank & Payments"
     },
