@@ -659,9 +659,6 @@
       ]
     },
     {
-      "menuHeader": "News"
-    },
-    {
       "name": "News",
       "icon": "menu-icon tf-icons bx bx-news",
       "slug": "layouts",
@@ -687,9 +684,6 @@
           ]
         }
       ]
-    },
-    {
-      "menuHeader": "Yekbun Tv"
     },
     {
       "name": "Yekbun Tv",
@@ -775,9 +769,6 @@
           "slug": "layouts-collapsed-menu"
         }
       ]
-    },
-    {
-      "menuHeader": "Zarok App"
     },
     {
       "name": "Zarok App",
