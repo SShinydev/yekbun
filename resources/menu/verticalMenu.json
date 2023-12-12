@@ -1127,23 +1127,6 @@
       "url": "settings/app-setting/maintainance"
     },
     {
-      "name": "App Info",
-      "icon": "menu-icon tf-icons bx bx-cog",
-      "slug": "settings.appsetting.appinfo",
-      "url": "settings/app-setting/appinfo"
-    },
-    {
-      "name": "Add Ringtone",
-      "icon": "menu-icon tf-icons bx bx-cog",
-      "slug": "settings.appsetting.ringtone",
-      "url": "settings/app-setting/ringtone"
-    },
-    {
-      "name": "Ringtone",
-      "icon": "menu-icon tf-icons bx bx-cog",
-      "slug": "layouts"
-    },
-    {
       "menuHeader": "Mobile App Settings"
     },
     {
@@ -1191,6 +1174,20 @@
           "name": "Add Popup",
           "slug": "app.popup",
           "url": "/app/popup"
+        },
+        {
+          "name": "App Info",
+          "slug": "settings.appsetting.appinfo",
+          "url": "settings/app-setting/appinfo"
+        },
+        {
+          "name": "Add Ringtone",
+          "slug": "settings.appsetting.ringtone",
+          "url": "settings/app-setting/ringtone"
+        },
+        {
+          "name": "Ringtone",
+          "slug": "layouts"
         }
       ]
     },
