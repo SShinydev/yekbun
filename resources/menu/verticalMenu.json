@@ -995,6 +995,11 @@
       "menuHeader": "Bank & Payments"
     },
     {
+      "name": "Currency",
+      "icon": "menu-icon tf-icons bx bx-devices",
+      "slug": "layouts"
+    },
+    {
       "name": "Income",
       "icon": "menu-icon tf-icons bx bx-money",
       "slug": "layouts",
@@ -1117,12 +1122,7 @@
       ]
     },
     {
-      "menuHeader": "Mobile App Settings"
-    },
-    {
-      "name": "App Settings",
-      "icon": "menu-icon tf-icons bx bx-cog",
-      "slug": "layouts"
+      "menuHeader": "App Settings"
     },
     {
       "name": "Portal Notifications",
