@@ -18,7 +18,6 @@ class Income extends Controller
     if (request()->view) {
       $view = request()->view;
   }
-    // return view('content.user-income.index');
     return view("content.user-income.index", compact("view"));
   }
 
@@ -28,8 +27,8 @@ class Income extends Controller
     if (request()->view) {
       $view = request()->view;
   }
-    // return view('content.user-income.index');
-    return view("content.online-shop-income.index", compact("view"));  }
+    return view("content.online-shop-income.index", compact("view"));  
+  }
 
   public function serviceIncome()
   {
@@ -37,8 +36,8 @@ class Income extends Controller
     if (request()->view) {
       $view = request()->view;
   }
-    // return view('content.user-income.index');
-    return view("content.service-income.index", compact("view"));  }
+    return view("content.service-income.index", compact("view"));  
+  }
 
   public function eventsIncome()
   {
@@ -46,8 +45,8 @@ class Income extends Controller
     if (request()->view) {
       $view = request()->view;
   }
-    // return view('content.user-income.index');
-    return view("content.events-income.index", compact("view"));  }  
+    return view("content.events-income.index", compact("view"));  
+  }  
   
   public function musicIncome()
   {
@@ -55,8 +54,8 @@ class Income extends Controller
     if (request()->view) {
       $view = request()->view;
   }
-    // return view('content.user-income.index');
-    return view("content.music-income.index", compact("view"));  }  
+    return view("content.music-income.index", compact("view"));  
+  }  
   
   public function videoIncome()
   {
@@ -64,8 +63,8 @@ class Income extends Controller
     if (request()->view) {
       $view = request()->view;
   }
-    // return view('content.user-income.index');
-    return view("content.video-income.index", compact("view"));  }  
+    return view("content.video-income.index", compact("view")); 
+   }  
   
   public function donationIncome()
   {
@@ -73,8 +72,17 @@ class Income extends Controller
     if (request()->view) {
       $view = request()->view;
   }
-    // return view('content.user-income.index');
-    return view("content.donation-income.index", compact("view"));  }
+    return view("content.donation-income.index", compact("view"));  
+  }
+  
+  public function totalIncome()
+  {
+    $view = 'daily';
+    if (request()->view) {
+      $view = request()->view;
+  }
+    return view("content.total-income.index", compact("view"));
+  }
 
   public function dailyIncome()
   {

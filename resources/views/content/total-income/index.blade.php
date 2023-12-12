@@ -30,7 +30,7 @@ const dropZoneInitFunctions = [];
 </script>
 
 <h4 class="fw-bold py-3 mb-4">
-    <span class="text-muted fw-light">User Income /</span> All Income
+    <span class="text-muted fw-light">Online Shop Income /</span> All Income
 </h4>
 
 <div class="row g-4 mb-4">
@@ -95,23 +95,22 @@ const dropZoneInitFunctions = [];
 
 <div class="nav-align-top mb-4">
     <ul class="nav nav-tabs nav-fill" role="tablist">
-        <li class="nav-item" role="presentation">
-            <a type="button" class="nav-link active" href="/app/daily-income" aria-selected="true"> Daily Income</a>
+    <li class="nav-item" role="presentation">
+            <a type="button" class="nav-link {{ $view === 'daily'? 'active': '' }}" href="?view=daily" aria-selected="true"> Daily Income</a>
         </li>
         <li class="nav-item" role="presentation">
-            <a type="button" class="nav-link" href="/app/monthly-income" aria-selected="false" tabindex="-1"> Monthly
+            <a type="button" class="nav-link {{ $view === 'monthly'? 'active': '' }}" href="?view=monthly" aria-selected="false" tabindex="-1"> Monthly
                 Income</a>
-
         </li>
         <li class="nav-item" role="presentation">
-            <a type="button" class="nav-link" href="/app/yearly-income" aria-selected="false" tabindex="-1"> Yearly
+            <a type="button" class="nav-link {{ $view === 'yearly'? 'active': '' }}" href="?view=yearly" aria-selected="false" tabindex="-1"> Yearly
                 Income</a>
         </li>
     </ul>
     <div class="tab-content p-0">
         <div class="tab-pane fade show active" id="solovedReportsTab" role="tabpanel">
             <div class="table-responsive text-nowrap pd-t-24px">
-                <table class="table">
+                <table class="{{ $view === 'daily'? 'table': 'd-none' }}">
                     <thead>
                         <tr>
                             <th>#</th>
@@ -162,6 +161,156 @@ const dropZoneInitFunctions = [];
                             </td>
                             <td>
                                 10
+                            </td>
+                            <td>
+                                150.000 $
+                            </td>
+                            <td>
+                                150.000 $
+                            </td>
+                            <td>
+                                150.000 $
+                            </td>
+                            <td>
+                                0.000 $
+                            </td>
+                            <td>
+                                150.000 $
+                            </td>
+                            <td>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sub-categories"
+                                    data-bs-offset="0,4" data-bs-placement="top" data-bs-html="true"
+                                    data-bs-original-title="Edit">View</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="{{ $view === 'monthly'? 'table': 'd-none' }}">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Total Services</th>
+                            <th>Bank Transfer </th>
+                            <th>Paypal </th>
+                            <th>Payment Office </th>
+                            <th>Discount</th>
+                            <th>Total </th>
+                            <th>Options</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                        <tr>
+                            <td>01</td>
+                            <td>
+                                12-2023
+                            </td>
+                            <td>
+                                50
+                            </td>
+                            <td>
+                                12.5000 $
+                            </td>
+                            <td>
+                                10.000 $
+                            </td>
+                            <td>
+                                20.000 $
+                            </td>
+                            <td>
+                                0.000 $
+                            </td>
+                            <td>
+                                32.500 $
+                            </td>
+                            <td>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sub-categories"
+                                    data-bs-offset="0,4" data-bs-placement="top" data-bs-html="true"
+                                    data-bs-original-title="Edit">View</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>
+                                11-2023
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                10.000 $
+                            </td>
+                            <td>
+                                10.000 $
+                            </td>
+                            <td>
+                                50.000 $
+                            </td>
+                            <td>
+                                0.000 $
+                            </td>
+                            <td>
+                                70.000 $
+                            </td>
+                            <td>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sub-categories"
+                                    data-bs-offset="0,4" data-bs-placement="top" data-bs-html="true"
+                                    data-bs-original-title="Edit">View</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="{{ $view === 'yearly'? 'table': 'd-none' }}">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Total Services</th>
+                            <th>Bank Transfer </th>
+                            <th>Paypal </th>
+                            <th>Payment Office </th>
+                            <th>Discount</th>
+                            <th>Total </th>
+                            <th>Options</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                        <tr>
+                            <td>01</td>
+                            <td>
+                                2023
+                            </td>
+                            <td>
+                                5
+                            </td>
+                            <td>
+                                150.000 $
+                            </td>
+                            <td>
+                                150.000 $
+                            </td>
+                            <td>
+                                150.000 $
+                            </td>
+                            <td>
+                                0.000 $
+                            </td>
+                            <td>
+                                150.000 $
+                            </td>
+                            <td>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sub-categories"
+                                    data-bs-offset="0,4" data-bs-placement="top" data-bs-html="true"
+                                    data-bs-original-title="Edit">View</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>
+                                2023
+                            </td>
+                            <td>
+                                5
                             </td>
                             <td>
                                 150.000 $

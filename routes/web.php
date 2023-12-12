@@ -381,9 +381,11 @@ Route::middleware(['admin.auth', '2fa'])->group(function () use ($controller_pat
     // Donation InCome
     Route::get('/app/donation-income', $controller_path . '\apps\income\Income@donationIncome')->name('app-donation-income');
     // Total InCome
-    Route::get('/app/daily-income', $controller_path . '\apps\income\Income@dailyIncome')->name('app-daily-income');
-    Route::get('/app/monthly-income', $controller_path . '\apps\income\Income@monthlyIncome')->name('app-monthly-income');
-    Route::get('/app/yearly-income', $controller_path . '\apps\income\Income@yearlyIncome')->name('app-yearly-income');
+    Route::get('/app/total-income', $controller_path . '\apps\income\Income@totalIncome')->name('app-total-income');
+
+    // Route::get('/app/daily-income', $controller_path . '\apps\income\Income@dailyIncome')->name('app-daily-income');
+    // Route::get('/app/monthly-income', $controller_path . '\apps\income\Income@monthlyIncome')->name('app-monthly-income');
+    // Route::get('/app/yearly-income', $controller_path . '\apps\income\Income@yearlyIncome')->name('app-yearly-income');
     // Donation
     Route::get('/app/donation', $controller_path . '\apps\donation\Donation@index')->name('app-donation');
     Route::get('/app/donation/add-donation', $controller_path . '\apps\donation\Donation@create')->name('app-donation-create');
