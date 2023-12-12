@@ -14,38 +14,67 @@ class Income extends Controller
 
   public function userIncome()
   {
-    return view('content.user-income.index');
+    $view = 'daily';
+    if (request()->view) {
+      $view = request()->view;
+  }
+    // return view('content.user-income.index');
+    return view("content.user-income.index", compact("view"));
   }
 
   public function onlineShopIncome()
   {
-    return view('content.online-shop-income.index');
+    $view = 'daily';
+    if (request()->view) {
+      $view = request()->view;
   }
+    // return view('content.user-income.index');
+    return view("content.online-shop-income.index", compact("view"));  }
 
   public function serviceIncome()
   {
-    return view('content.service-income.index');
+    $view = 'daily';
+    if (request()->view) {
+      $view = request()->view;
   }
+    // return view('content.user-income.index');
+    return view("content.service-income.index", compact("view"));  }
 
   public function eventsIncome()
   {
-    return view('content.events-income.index');
-  }  
+    $view = 'daily';
+    if (request()->view) {
+      $view = request()->view;
+  }
+    // return view('content.user-income.index');
+    return view("content.events-income.index", compact("view"));  }  
   
   public function musicIncome()
   {
-    return view('content.music-income.index');
-  }  
+    $view = 'daily';
+    if (request()->view) {
+      $view = request()->view;
+  }
+    // return view('content.user-income.index');
+    return view("content.music-income.index", compact("view"));  }  
   
   public function videoIncome()
   {
-    return view('content.video-income.index');
-  }  
+    $view = 'daily';
+    if (request()->view) {
+      $view = request()->view;
+  }
+    // return view('content.user-income.index');
+    return view("content.video-income.index", compact("view"));  }  
   
   public function donationIncome()
   {
-    return view('content.donation-income.index');
+    $view = 'daily';
+    if (request()->view) {
+      $view = request()->view;
   }
+    // return view('content.user-income.index');
+    return view("content.donation-income.index", compact("view"));  }
 
   public function dailyIncome()
   {
