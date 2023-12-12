@@ -1126,16 +1126,19 @@
     },
     {
       "name": "Portal Notifications",
+      "icon": "menu-icon tf-icons bx bx-cog",
       "slug": "app.portal.notification",
       "url": "/app/portal-notification"
     },
     {
       "name": "Policy and Terms",
+      "icon": "menu-icon tf-icons bx bx-cog",
       "slug": "policy_and_terms.index",
       "url": "/policy_and_terms"
     },
     {
       "name": "Locations",
+      "icon": "menu-icon tf-icons bx bx-cog",
       "slug": "layouts",
       "submenu": [
         {
