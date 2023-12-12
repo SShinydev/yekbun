@@ -1122,64 +1122,67 @@
     {
       "name": "App Settings",
       "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "layouts"
+    },
+    {
+      "name": "Portal Notifications",
+      "slug": "app.portal.notification",
+      "url": "/app/portal-notification"
+    },
+    {
+      "name": "Policy and Terms",
+      "slug": "policy_and_terms.index",
+      "url": "/policy_and_terms"
+    },
+    {
+      "name": "Locations",
       "slug": "layouts",
       "submenu": [
         {
-          "name": "Portal Notifications",
-          "slug": "app.portal.notification",
-          "url": "/app/portal-notification"
-        },
-        {
-          "name": "Policy and Terms",
-          "slug": "policy_and_terms.index",
-          "url": "/policy_and_terms"
-        },
-        {
-          "name": "Locations",
-          "slug": "layouts",
-          "submenu": [
-            {
-              "name": "Add Country",
-              "slug": "settings.yekbun_location.countries.index",
-              "url": "/settings/yekbun-location/countries"
-            },
-            {
-              "name": "Add Province",
-              "slug": "settings.provinces.index",
-              "url": "/settings/provinces"
-            },
-            {
-              "name": "Add City and Zipcode",
-              "slug": "settings.cities.index",
-              "url": "/settings/cities"
-            }
-          ]
-        },
-        {
           "name": "Add Country",
-          "slug": "settings.countries.index",
-          "url": "/settings/countries"
+          "slug": "settings.yekbun_location.countries.index",
+          "url": "/settings/yekbun-location/countries"
         },
         {
-          "name": "Add Popup",
-          "slug": "app.popup",
-          "url": "/app/popup"
+          "name": "Add Province",
+          "slug": "settings.provinces.index",
+          "url": "/settings/provinces"
         },
         {
-          "name": "App Info",
-          "slug": "settings.appsetting.appinfo",
-          "url": "settings/app-setting/appinfo"
-        },
-        {
-          "name": "Add Ringtone",
-          "slug": "settings.appsetting.ringtone",
-          "url": "settings/app-setting/ringtone"
-        },
-        {
-          "name": "Ringtone",
-          "slug": "layouts"
+          "name": "Add City and Zipcode",
+          "slug": "settings.cities.index",
+          "url": "/settings/cities"
         }
       ]
+    },
+    {
+      "name": "Add Country",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "settings.countries.index",
+      "url": "/settings/countries"
+    },
+    {
+      "name": "Add Popup",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "app.popup",
+      "url": "/app/popup"
+    },
+    {
+      "name": "App Info",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "settings.appsetting.appinfo",
+      "url": "settings/app-setting/appinfo"
+    },
+    {
+      "name": "Add Ringtone",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "settings.appsetting.ringtone",
+      "url": "settings/app-setting/ringtone"
+    },
+    {
+      "name": "Ringtone",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "layouts"
     },
     {
       "name": "Maintainance",
