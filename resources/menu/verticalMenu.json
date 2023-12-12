@@ -689,7 +689,7 @@
       "menuHeader": "Entertainment"
     },
     {
-      "name": "Live Streams & Channel",
+      "name": "Live Stream",
       "icon": "menu-icon tf-icons bx bx-video-recording",
       "slug": "layouts",
       "submenu": [
