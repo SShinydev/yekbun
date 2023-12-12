@@ -1123,28 +1123,29 @@
     {
       "name": "Settings",
       "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "layouts"
+    },
+    {
+      "name": "Maintainance",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "settings.appsetting.maintainance",
+      "url": "settings/app-setting/maintainance"
+    },
+    {
+      "name": "App Info",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "settings.appsetting.appinfo",
+      "url": "settings/app-setting/appinfo"
+    },
+    {
+      "name": "Ringtone",
+      "icon": "menu-icon tf-icons bx bx-cog",
       "slug": "layouts",
       "submenu": [
         {
-          "name": "Maintainance",
-          "slug": "settings.appsetting.maintainance",
-          "url": "settings/app-setting/maintainance"
-        },
-        {
-          "name": "App Info",
-          "slug": "settings.appsetting.appinfo",
-          "url": "settings/app-setting/appinfo"
-        },
-        {
-          "name": "Ringtone",
-          "slug": "layouts",
-          "submenu": [
-            {
-              "name": "Add Ringtone",
-              "slug": "settings.appsetting.ringtone",
-              "url": "settings/app-setting/ringtone"
-            }
-          ]
+          "name": "Add Ringtone",
+          "slug": "settings.appsetting.ringtone",
+          "url": "settings/app-setting/ringtone"
         }
       ]
     },
