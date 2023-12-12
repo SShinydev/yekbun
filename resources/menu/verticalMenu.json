@@ -1116,16 +1116,6 @@
         }
       ]
     },
- 
-    {
-      "menuHeader": "Settings"
-    },
-    {
-      "name": "Maintainance",
-      "icon": "menu-icon tf-icons bx bx-cog",
-      "slug": "settings.appsetting.maintainance",
-      "url": "settings/app-setting/maintainance"
-    },
     {
       "menuHeader": "Mobile App Settings"
     },
@@ -1190,6 +1180,12 @@
           "slug": "layouts"
         }
       ]
+    },
+    {
+      "name": "Maintainance",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "settings.appsetting.maintainance",
+      "url": "settings/app-setting/maintainance"
     },
 
     {
