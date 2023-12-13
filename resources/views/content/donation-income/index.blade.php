@@ -30,7 +30,7 @@ const dropZoneInitFunctions = [];
 </script>
 
 <h4 class="fw-bold py-3 mb-4">
-    <span class="text-muted fw-light">Online Shop Income /</span> All Income
+    <span class="text-muted fw-light">Donation Income /</span> All Income
 </h4>
 
 <div class="row g-4 mb-4">
@@ -352,7 +352,7 @@ const dropZoneInitFunctions = [];
 <!-- Invoice Modal -->
 <div class="modal fade" id="sub-categories" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered modal-sub-categories">
-        <div class="modal-content h-128 w-210">
+        <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>

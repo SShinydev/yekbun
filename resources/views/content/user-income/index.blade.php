@@ -30,7 +30,7 @@ const dropZoneInitFunctions = [];
 </script>
 
 <h4 class="fw-bold py-3 mb-4">
-    <span class="text-muted fw-light">Online Shop Income /</span> All Income
+    <span class="text-muted fw-light">User Income /</span> All Income
 </h4>
 
 <div class="row g-4 mb-4">
