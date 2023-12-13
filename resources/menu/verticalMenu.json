@@ -714,8 +714,9 @@
           "slug": "layouts",
           "submenu": [
             {
+              "url": "setting/live/streaming_duration",
               "name": "Streaming Durations",
-              "slug": "layouts-content-nav-sidebar"
+              "slug": "live.streaming_durations"
             },
             {
               "url": "/setting/live/reasons",
