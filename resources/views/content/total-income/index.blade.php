@@ -182,6 +182,9 @@ const dropZoneInitFunctions = [];
                                 150.000 $
                             </td>
                             <td>
+                                150.000 $
+                            </td>
+                            <td>
                                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sub-categories"
                                     data-bs-offset="0,4" data-bs-placement="top" data-bs-html="true"
                                     data-bs-original-title="Edit">View</button>
@@ -261,6 +264,9 @@ const dropZoneInitFunctions = [];
                                 70.000 $
                             </td>
                             <td>
+                                70.000 $
+                            </td>
+                            <td>
                                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sub-categories"
                                     data-bs-offset="0,4" data-bs-placement="top" data-bs-html="true"
                                     data-bs-original-title="Edit">View</button>
@@ -335,6 +341,9 @@ const dropZoneInitFunctions = [];
                             </td>
                             <td>
                                 0.000 $
+                            </td>
+                            <td>
+                                150.000 $
                             </td>
                             <td>
                                 150.000 $
