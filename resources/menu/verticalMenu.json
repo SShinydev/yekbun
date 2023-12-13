@@ -724,12 +724,12 @@
             {
               "url": "/setting/live/prefix",
               "name": "Prefix",
-              "slug": "layouts-content-nav-sidebar"
+              "slug": "live.prefix"
             },
             {
               "url": "/live/policy_and_terms",
               "name": "Policy and Terms",
-              "slug": "layouts-content-nav-sidebar"
+              "slug": "live.policy_and_terms.index"
             }
           ]
         }
