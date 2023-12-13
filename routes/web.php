@@ -317,8 +317,12 @@ Route::middleware(['admin.auth', '2fa'])->group(function () use ($controller_pat
     Route::get('setting/music/prefix', [PrefixController::class, 'index'])->name('music.prefix');
 
 
+
     Route::resource('/music-category', MusicCategoryController::class);
     Route::get('/music_category/{id}/{status}', [MusicCategoryController::class, 'status'])->name('musiccat-status');
+
+    //Live Stream
+    Route::get('setting/live/prefix', [PrefixController::class, 'index'])->name('live.prefix');
 
     //artist
     Route::resource('/artist', ArtistController::class);

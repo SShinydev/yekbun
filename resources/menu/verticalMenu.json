@@ -722,6 +722,7 @@
               "slug": "layouts-content-nav-sidebar"
             },
             {
+              "url": "/setting/live/prefix",
               "name": "Prefix",
               "slug": "layouts-content-nav-sidebar"
             },
