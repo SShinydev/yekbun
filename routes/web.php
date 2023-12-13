@@ -530,6 +530,7 @@ Route::middleware(['admin.auth', '2fa'])->group(function () use ($controller_pat
     Route::resource('policy_and_terms', PolicyAndTermsController::class);
     Route::get('musics/policy_and_terms', [PolicyAndTermsController::class,'index'])->name('music.policy_and_terms.index');
     Route::get('team/policy_and_terms', [PolicyAndTermsController::class,'index'])->name('team.policy_and_terms.index');
+    Route::get('live/policy_and_terms', [PolicyAndTermsController::class,'index'])->name('live.policy_and_terms.index');
     Route::post('saveFileds', [PolicyAndTermsController::class, 'saveFileds'])->name('policy_and_terms.saveFileds');
     // system logs
     Route::resource('logs', SystemLogController::class);
