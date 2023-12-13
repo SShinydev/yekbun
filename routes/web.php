@@ -323,6 +323,7 @@ Route::middleware(['admin.auth', '2fa'])->group(function () use ($controller_pat
 
     //Live Stream
     Route::get('setting/live/prefix', [PrefixController::class, 'index'])->name('live.prefix');
+    Route::get('setting/live/reasons', [ReasonController::class, 'index'])->name('live.reasons');
 
     //artist
     Route::resource('/artist', ArtistController::class);

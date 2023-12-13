@@ -718,8 +718,9 @@
               "slug": "layouts-content-nav-sidebar"
             },
             {
+              "url": "/setting/live/reasons",
               "name": "Reasons",
-              "slug": "layouts-content-nav-sidebar"
+              "slug": "live.reasons"
             },
             {
               "url": "/setting/live/prefix",
